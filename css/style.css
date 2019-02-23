@@ -8,7 +8,7 @@ body{
 
 p{
     font-family: Sans-Serif Verdana;
-    font-size: 200%;
+    font-size: 175%;
 }
 
 address { 
@@ -150,7 +150,8 @@ h2{
     color: rgb(247, 143, 25)}
 h3{
     font-size: 175%;
-    color: rgb(247, 143, 25)
+    color: rgb(247, 143, 25);
+    text-align: center;
 }
 
 nav ul{
@@ -222,6 +223,13 @@ figure {
 
 
 @media only screen and (min-width: 1100px) { 
+    body{
+        background-image: url(../images/recropped_shadows.jpg);
+        color: white;
+        font-size: 100%;
+        margin: 5%;
+        font-family: 'PT Serif', serif;
+    }
     p{
         font-family: Sans-Serif Verdana;
         font-size: 175%;
@@ -281,6 +289,14 @@ figure {
     .genmembs{
         font-size: 100%;
         text-align: center;
+
+        display: inline-grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+        justify-content: center;
+
+}
+        
     }
 
     .agena, .month{
@@ -301,5 +317,13 @@ figure {
     }
     .gall18{
         margin: 0% 0% 0% 5%;
+    }
+    footer{
+        min-height: 10vh;
+        font-size: 215%;
+        display:flex;
+        justify-content: flex-end;
+        align-items: flex-end;
+        padding-top: 10%
     }
 }
