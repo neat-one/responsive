@@ -8,7 +8,7 @@ body{
 
 p{
     font-family: Sans-Serif Verdana;
-    font-size: 100%;
+    font-size: 200%;
 }
 
 address { 
@@ -219,7 +219,6 @@ figure {
     height: 200px;
     width: 200px;
 }
-
 
 
 @media only screen and (min-width: 1100px) { 
