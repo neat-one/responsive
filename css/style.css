@@ -6,86 +6,51 @@ body{
     font-family: 'PT Serif', serif;
 }
 
-@media screen and (max-width: 769px) { 
-    p{
-        font-family: Sans-Serif Verdana;
-        font-size: 200%;
-        padding: 2%;
-    }
-    address { 
-        display: block;
-        font-style: normal;
-        font-size: 200%;
-        color: white;
-        padding: 2%;
-      }
-    .headerpic{
+p{
+    font-family: Sans-Serif Verdana;
+    font-size: 100%;
+}
+
+address { 
     display: block;
-    margin: auto;
-    height: 100%;
-    width: 100%;
+    font-style: normal;
+    color: white
+  }
+
+  .headerpic{
+    display: block;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    height: 95%;
+    width: 95%;
     border: solid rgb(247, 143, 25) 5px;
     padding: 1%
     
-    }
-    nav ul li{
-        display: inline-block;
-        width:25%;
-        background: white;
-        padding: 10px;
-        min-height: 50px;
-        line-height: 50px;
-        border-width: 2px;
-        text-align: center;
-        font-size: 250%;
-    background-image: -webkit-linear-gradient(top left, rgb(10, 110, 27), lightgreen);
-    background-image: -o-linear-gradient(top left, rgb(10, 110, 27), lightgreen);
-    background-image: linear-gradient(to bottom right, rgb(10, 110, 27), lightgreen);
-    
-        
-    }
 }
 
-@media screen and (min-width: 768px) { 
-    p{
-        font-family: Sans-Serif Verdana;
-        font-size: 175%;
-        padding: 4px;
-    }
-    
-    address { 
-        display: block;
-        font-style: normal;
-        font-size: 175%;
-        color: white
-      }
-    .headerpic{
-    display: block;
-    margin: auto;
-    height: 65%;
-    width: 65%;
-    border: solid rgb(247, 143, 25) 5px;
-    padding: 1%;
-    
-
-    }
-    nav ul li{
-        display: inline-block;
-        width:25%;
-        background: white;
-        padding: 10px;
-        min-height: 30px;
-        line-height: 30px;
-        border-width: 2px;
-        text-align: center;
-        font-size: 175%;
-    background-image: -webkit-linear-gradient(top left, rgb(10, 110, 27), lightgreen);
-    background-image: -o-linear-gradient(top left, rgb(10, 110, 27), lightgreen);
-    background-image: linear-gradient(to bottom right, rgb(10, 110, 27), lightgreen);
-    
-        
-    }
+.genmembs{
+    font-size: 150%
 }
+
+
+nav ul li{
+    display: inline-block;
+    width:25%;
+    background: white;
+    padding: 10px;
+    min-height: 50px;
+    line-height: 50px;
+    border-width: 2px;
+    text-align: center;
+    font-size: 225%;
+background-image: -webkit-linear-gradient(top left, rgb(10, 110, 27), lightgreen);
+background-image: -o-linear-gradient(top left, rgb(10, 110, 27), lightgreen);
+background-image: linear-gradient(to bottom right, rgb(10, 110, 27), lightgreen);
+
+    
+}
+
+
 
 
 a.other{
@@ -161,9 +126,18 @@ a.links{
     color:rgb(247, 143, 25);
 }
 
-.calendar{
+/* .agena, .month{
+    height: 2000px;
     width: 100%;
-    height: 100%
+} */
+
+.month{
+    display:none;
+}
+
+.agenda{
+    height: 500px;
+    width: 100%;
 }
 
 h1{
@@ -244,4 +218,89 @@ figure {
     margin-right: 2px;
     height: 200px;
     width: 200px;
+}
+
+
+
+@media only screen and (min-width: 1100px) { 
+    p{
+        font-family: Sans-Serif Verdana;
+        font-size: 175%;
+        padding: 4px;
+    }
+    
+    address { 
+        display: block;
+        font-style: normal;
+        font-size: 175%;
+        color: white
+      }
+
+    .headerpic{
+    display: block;
+    margin: auto;
+    height: 65%;
+    width: 65%;
+    border: solid rgb(247, 143, 25) 5px;
+    padding: 1%;
+    
+
+    }
+    nav ul li{
+        display: inline-block;
+        width:25%;
+        background: white;
+        padding: 10px;
+        min-height: 30px;
+        line-height: 30px;
+        border-width: 2px;
+        text-align: center;
+        font-size: 175%;
+    background-image: -webkit-linear-gradient(top left, rgb(10, 110, 27), lightgreen);
+    background-image: -o-linear-gradient(top left, rgb(10, 110, 27), lightgreen);
+    background-image: linear-gradient(to bottom right, rgb(10, 110, 27), lightgreen);
+    
+        
+    }
+
+    .eboard{
+        padding-right: 1px;
+        margin-top: 2px;
+        margin-right: 2px;
+        height: 75%;
+        width: 75%;
+    }
+
+    .eboard2{
+        padding-right: 1px;
+        margin-top: 2px;
+        margin-right: 2px;
+        height: 75%;
+        width: 75%;
+    }
+
+    .genmembs{
+        font-size: 100%;
+        text-align: center;
+    }
+
+    .agena, .month{
+        height: 500px;
+        width: 100%;
+    }
+    .agenda{
+		display: none;
+	}
+
+	.month{
+		display: block;
+    }
+    
+    .ima{
+        width: 20%;
+        height: 20%;
+    }
+    .gall18{
+        margin: 0% 0% 0% 5%;
+    }
 }
