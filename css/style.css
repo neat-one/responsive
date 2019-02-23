@@ -1,0 +1,247 @@
+body{
+    background-image: url(../images/dark_figures.jpg);
+    color: white;
+    font-size: 100%;
+    margin: 5%;
+    font-family: 'PT Serif', serif;
+}
+
+@media screen and (max-width: 769px) { 
+    p{
+        font-family: Sans-Serif Verdana;
+        font-size: 200%;
+        padding: 2%;
+    }
+    address { 
+        display: block;
+        font-style: normal;
+        font-size: 200%;
+        color: white;
+        padding: 2%;
+      }
+    .headerpic{
+    display: block;
+    margin: auto;
+    height: 100%;
+    width: 100%;
+    border: solid rgb(247, 143, 25) 5px;
+    padding: 1%
+    
+    }
+    nav ul li{
+        display: inline-block;
+        width:25%;
+        background: white;
+        padding: 10px;
+        min-height: 50px;
+        line-height: 50px;
+        border-width: 2px;
+        text-align: center;
+        font-size: 250%;
+    background-image: -webkit-linear-gradient(top left, rgb(10, 110, 27), lightgreen);
+    background-image: -o-linear-gradient(top left, rgb(10, 110, 27), lightgreen);
+    background-image: linear-gradient(to bottom right, rgb(10, 110, 27), lightgreen);
+    
+        
+    }
+}
+
+@media screen and (min-width: 768px) { 
+    p{
+        font-family: Sans-Serif Verdana;
+        font-size: 175%;
+        padding: 4px;
+    }
+    
+    address { 
+        display: block;
+        font-style: normal;
+        font-size: 175%;
+        color: white
+      }
+    .headerpic{
+    display: block;
+    margin: auto;
+    height: 65%;
+    width: 65%;
+    border: solid rgb(247, 143, 25) 5px;
+    padding: 1%;
+    
+
+    }
+    nav ul li{
+        display: inline-block;
+        width:25%;
+        background: white;
+        padding: 10px;
+        min-height: 30px;
+        line-height: 30px;
+        border-width: 2px;
+        text-align: center;
+        font-size: 175%;
+    background-image: -webkit-linear-gradient(top left, rgb(10, 110, 27), lightgreen);
+    background-image: -o-linear-gradient(top left, rgb(10, 110, 27), lightgreen);
+    background-image: linear-gradient(to bottom right, rgb(10, 110, 27), lightgreen);
+    
+        
+    }
+}
+
+
+a.other{
+    color: white
+}
+
+a.skip{
+    position: relative;
+    left:-1000px;
+    color: white
+}
+
+a.skip:focus{
+    position:static;
+    width:auto;
+    height:auto
+}
+
+a.current{
+    color: green;
+    font-style: italic;
+    font-family: Georgia, serif;
+    background: rgb(247, 143, 25);
+    padding: 2px;
+    border: solid white 2px
+}
+
+
+
+.middle {
+    transition: .5s ease;
+    opacity: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+
+.container{
+    display: inline-grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+
+
+}
+.ima{
+    padding: 5px;
+    margin: 15px;
+    width: 45%;
+    height: 45%;
+}
+
+a.links{
+    color: white;
+}
+  .text {
+    background-color: #4CAF50;
+    color: white;
+    font-size: 16px;
+    padding: 16px 32px;
+  }
+
+  
+.column {
+   flex: 15%;
+   padding: 5px;
+ }
+
+.event{
+    color:rgb(247, 143, 25);
+}
+
+.calendar{
+    width: 100%;
+    height: 100%
+}
+
+h1{
+    font-size: 450%;
+    text-align: center;
+    border: none
+}
+h2{
+    font-size: 250%;
+    color: rgb(247, 143, 25)}
+h3{
+    font-size: 175%;
+    color: rgb(247, 143, 25)
+}
+
+nav ul{
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+footer{
+    min-height: 10vh;
+    font-size: 215%;
+    display:flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    padding-top: 100%
+}
+
+figure {
+    text-align: center;
+    font-size: 210%;
+    width: 300px;
+    height: 300px;
+    justify-self: start;
+    
+  }
+
+#threeimages{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+
+    flex: row wrap;
+    flex-direction: row;
+
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.eboard{
+    padding-right: 1px;
+    margin-top: 2px;
+    margin-right: 2px;
+    height: 200px;
+    width: 200px;
+}
+
+#fourimages{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+
+    flex: row wrap;
+    flex-direction: row;
+
+    align-items: center;
+    justify-content: center;
+
+}
+
+.eboard2{
+    padding-right: 1px;
+    margin-top: 2px;
+    margin-right: 2px;
+    height: 200px;
+    width: 200px;
+}
