@@ -218,9 +218,9 @@ nav ul{
         display: none;
     }
 
-    .week{
+    /* .week{
         display: none;
-    }
+    } */
     
     .agenda{
         height: 500px;
@@ -351,9 +351,9 @@ nav ul{
     display: none;
 }
 
-.week{
+/* .week{
     display: none;
-}
+} */
 
 .month{
     display: block;
@@ -487,13 +487,14 @@ footer{
     }
     
     .agenda{
-        display: none;
-    }
-
-    .week{
         display: block;
         margin-left: auto;
     }
+
+    /* .week{
+        display: block;
+        margin-left: auto;
+    } */
 
     footer{
         min-height: 10vh;
