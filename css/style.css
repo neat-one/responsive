@@ -124,7 +124,7 @@ nav ul{
     body{
         background-image: url(../images/dark_figures.jpg);
         color: white;
-        font-size: 50%;
+        font-size: 65%;
         margin: 5%;
         font-family: 'PT Serif', serif;
     }
@@ -183,8 +183,8 @@ nav ul{
     .ima{
         padding: 5px;
         /* margin: 15px; */
-        width: 95%;
-        height: 95%;
+        width: 45%;
+        height: 45%;
     }
 
     figure {
@@ -193,7 +193,7 @@ nav ul{
         width: 100px;
         height: 100px;
         justify-self: start;
-        padding: 0% 0% 10% 0%;
+        padding: 0% 5% 100px 0%;
         
       }
 
@@ -201,16 +201,17 @@ nav ul{
         padding-right: 1px;
         margin-top: 2px;
         margin-right: 2px;
-        height: 75px;
-        width: 75px;
+        height: 100%;
+        width: 100%;
+
     }
 
     .eboard2{
         padding-right: 1px;
         /* margin-top: 2px; */
         margin-right: 2px;
-        height: 75px;
-        width: 75px;
+        height: 100%;
+        width: 100%;
     }
 
     .genmembs{
@@ -292,7 +293,7 @@ nav ul{
 
     .container{
         display: inline-grid;
-        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-columns: 25% 25% 25% 25%;
         grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
     
     
@@ -301,8 +302,8 @@ nav ul{
     .ima{
         padding: 5px;
         /* margin: 15px; */
-        width: 30%;
-        height: 30%;
+        width: 20%;
+        height: 20%;
     }
 
     figure {
@@ -353,12 +354,8 @@ nav ul{
     display: block;
 }
 
-/* .ima{
-    width: 95%;
-    height: 95%;
-} */
 .gall18{
-    margin: 0% 0% 0% 5%;
+    /* margin: 0% 0% 0% 5%; */
 }
 footer{
     min-height: 10vh;
@@ -370,3 +367,144 @@ footer{
 }
         
     }
+
+@media screen and (max-width: 768px) and (orientation: landscape) {
+    /* html {
+      transform: rotate(-90deg);
+      transform-origin: left top;
+      width: 100vh;
+      overflow-x: hidden;
+      position: absolute;
+      top: 100%;
+      left: 0;
+    } */
+
+    body{
+        background-image: url(../images/recropped_shadows.jpg);
+        color: white;
+        font-size: 90%;
+        margin: 2%;
+        font-family: 'PT Serif', serif;
+    }
+    
+    p{
+        font-family: Sans-Serif Verdana;
+        font-size: 150%;
+    }
+    
+    address {
+        display: block;
+        font-style: normal;
+        color: white;
+        font-size: 125%
+      }
+    .headerpic{
+        display: block;
+        margin-top: 2%;
+        margin-bottom: 2%;
+        height: 95%;
+        width: 95%;
+        border: solid rgb(247, 143, 25) 5px;
+        padding: 1%
+        
+    }
+
+    h3{
+        font-size: 275%;
+        color: rgb(247, 143, 25);
+        text-align: center;
+        padding-top: 5%;
+    }
+
+    nav ul li{
+        display: inline-block;
+        width:25%;
+        padding: 8px;
+        min-height: 40px;
+        line-height: 40px;
+        border-width: 2px;
+        text-align: center;
+        font-size: 225%;
+    background-image: -webkit-linear-gradient(top left, rgb(10, 110, 27), lightgreen);
+    background-image: -o-linear-gradient(top left, rgb(10, 110, 27), lightgreen);
+    background-image: linear-gradient(to bottom right, rgb(10, 110, 27), lightgreen);
+    
+        
+    }
+
+    .container{
+        display: inline-grid;
+        align-items: flex-start;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+    
+    }
+
+    .ima{
+        padding: 5px;
+        /* margin: 15px; */
+        width: 30%;
+        height: 30%;
+    }
+
+    figure {
+        text-align: center;
+        font-size: 175%;
+        width: 100%;
+        height: 100%;
+        justify-self: start;
+        padding: 0% 0% 1% 0%;
+        margin-inline-start: 1%;
+        margin-inline-end: 1%;
+        
+      }
+
+    .eboard{
+        padding-right: 1px;
+        margin-top: 2px;
+        margin-right: 2px;
+        height: 75%;
+        width: 75%;
+    }
+
+    .eboard2{
+        padding-right: 1px;
+        margin-right: 2px;
+        height: 95%;
+        width: 95%;
+    }
+
+    .genmembs{
+        font-size: 150%
+    }
+    .month{
+        display: none;
+    }
+    
+    .agenda{
+        height: 500px;
+        width: 100%;
+    }
+
+    footer{
+        min-height: 10vh;
+        font-size: 215%;
+        display:flex;
+        justify-content: flex-end;
+        align-items: flex-end;
+        padding-top: 100%
+    }
+    .genmembs{
+        font-size: 100%;
+        text-align: center;
+
+        display: inline-grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr;
+        justify-content: center;
+
+}
+
+  } 
+
+
