@@ -6,7 +6,7 @@ a.other{
 a.skip{
     position: relative;
     left:-1000px;
-    color: white
+    color: white;
 }
 
 a.skip:focus{
@@ -425,7 +425,7 @@ footer{
         line-height: 40px;
         border-width: 2px;
         text-align: center;
-        font-size: 225%;
+        font-size: 175%;
     background-image: -webkit-linear-gradient(top left, rgb(10, 110, 27), lightgreen);
     background-image: -o-linear-gradient(top left, rgb(10, 110, 27), lightgreen);
     background-image: linear-gradient(to bottom right, rgb(10, 110, 27), lightgreen);
