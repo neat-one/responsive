@@ -80,6 +80,8 @@ nav ul{
     display: flex;
     justify-content: flex-end;
     /* align-content: center; */
+    /* padding-left: 5%; */
+    margin: 10%;
 }
 
 
@@ -165,7 +167,7 @@ nav ul{
         line-height: 40px;
         border-width: 2px;
         text-align: center;
-        font-size: 80%;
+        font-size: 125%;
     background-image: -webkit-linear-gradient(top left, rgb(10, 110, 27), lightgreen);
     background-image: -o-linear-gradient(top left, rgb(10, 110, 27), lightgreen);
     background-image: linear-gradient(to bottom right, rgb(10, 110, 27), lightgreen);
